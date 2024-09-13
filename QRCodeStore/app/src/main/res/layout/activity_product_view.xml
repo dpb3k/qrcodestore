@@ -1,0 +1,116 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bgrnt"
+    android:id="@+id/mainLayout">
+
+    <TableRow>
+        <TextView
+            android:text="Product Name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/pname"
+            android:text="Nil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Manufacturing Date"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/mandate"
+            android:text="Nil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Expiry Date"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/expdate"
+            android:text="Nil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Price"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/price"
+            android:text="Nil"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Manufacturer"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/manuf"
+            android:text="Nil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/desc"
+            android:text="Nil"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="start"
+            android:paddingLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <EditText
+        android:id="@+id/cartitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Quantity"
+        android:layout_span="2"
+        android:inputType="number"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/cartbtn"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_span="2"
+        android:text="Add to Cart"
+        android:layout_marginTop="20dp" />
+
+</TableLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QR Code Store</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ip">IpActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_user_home">UserHome</string>
+    <string name="title_activity_product_view">ProductView</string>
+    <string name="title_activity_product_cart_list">ProductCartList</string>
+    <string name="title_activity_show_cart">Show_cart</string>
+    <string name="title_activity_bill_view">BillView</string>
+    <string name="title_activity_checking">Checking</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_forgotpassword">Forgotpassword</string>
+
+</resources>

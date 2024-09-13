@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bgrnt"
+    tools:context=".UserHomeActivity">
+
+    <Button
+        android:id="@+id/scanQRButton"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/cartdetails"
+        android:text="Scan Product"
+        android:onClick="scanQr" />
+
+    <Button
+        android:id="@+id/cartdetails"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+
+        android:text="View Cart Details"
+        android:onClick="viewCartDetails" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/cartdetails"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:text="Logout"
+        android:onClick="logout" />
+
+</RelativeLayout>
