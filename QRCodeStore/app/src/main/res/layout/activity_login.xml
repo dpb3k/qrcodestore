@@ -1,0 +1,64 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgrnt"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/billno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:onClick="login"
+        android:layout_margin="25dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/newUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registerNow"
+        android:layout_margin="25dp"
+        android:text="New User? Register" />
+
+    <Button
+        android:id="@+id/forgotPasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onForgotPasswordClicked"
+        android:layout_margin="25dp"
+        android:text="Forgot password" />
+
+</LinearLayout>
