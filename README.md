@@ -1,2 +1,2 @@
-# qrcodestore
+# QR Code Store
 This project aims to develop a QR Code-Based Customer Billing System for a supermarket, where users can scan QR codes to add products to their cart, view their cart, and proceed to purchase. The system integrates Firebase Firestore as the database backend for storing products and user-specific cart data. It also includes authentication and cart management features, ensuring a secure and user-friendly shopping experience.
