@@ -8,7 +8,9 @@ This project is a **QR Code-Based Customer Billing System** designed for superma
 - Proceed to purchase products
 
 The system is built with **Firebase Firestore** as the database backend, used to store product information and user-specific cart data. The app also integrates **Firebase Authentication** for secure user registration and login, making the shopping experience user-friendly and secure.
+
 The app will run on devices with Android 10 (API 29) and newer.
+
 **Note:** No real purchases or currency transactions are involved through this app.
 
 ---
