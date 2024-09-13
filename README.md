@@ -22,6 +22,10 @@ The system is built with **Firebase Firestore** as the database backend, used to
   - Proceed to checkout (simulated purchase)
 - **Firebase Integration:** Real-time database management with Firestore for products and cart data storage.
 
+
+https://github.com/user-attachments/assets/15ec6612-7575-49c3-9ff0-fb10b9d4ee61
+
+
 ---
 
 ### Installation & Usage
